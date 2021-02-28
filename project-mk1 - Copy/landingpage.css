@@ -1,0 +1,140 @@
+ *{
+     padding: 0px;
+     margin: 0px;
+     box-sizing: border-box;
+     color: white;
+     font-family: 'Baloo 2', cursive;
+ }
+
+.text-center
+{
+font-size: 11px;
+text-align: center;
+font-weight: bolder;
+
+}
+
+
+body{
+background-image: url('./photo-1526506118085-60ce8714f8c5.jfif');
+}
+
+ 
+
+ #first
+ {
+     display: inline-block;
+ position: absolute;
+ top:0px;
+ left: 10px;
+ /* border: 2px solid red; */
+
+ }
+
+
+
+ #second
+ {
+ display: block;    
+width: 40%;
+margin: 10px auto;
+
+
+ }
+
+
+ #third
+ {
+     display: inline-block;
+ position: absolute;
+ top:10px;
+ right: 10px;
+ /* border: 1px solid red; */
+
+ }
+ /* ////////////////////////////// */
+
+.container ul
+{
+    /* border: 2px solid red; */
+   margin-left: 45px;
+
+}
+
+  .container ul li
+  {
+      /* border: 1px solid greenyellow; */
+display: inline-block;
+padding: 0px 20px;
+list-style: none;
+  }
+  .container ul li a
+  {
+ text-decoration: none;
+ color: white;
+ padding: 0px 10px;
+ font-size: 20px;
+ background-color:black;
+ border-radius: 12px;
+  }
+.container ul li a:hover
+{
+ background-color: white;
+ color:black;
+}
+
+
+/* /////////////////////// */
+.container img
+{
+width: 50px;
+height:  40px;
+display: block;
+margin: 0px auto;
+}
+
+.btn
+{
+border: 2px solid rgb(163, 163, 159);
+background-color: rgb(96, 102, 90);
+margin-right:5px ;
+padding: 0px 5px;
+border-radius: 12px;
+font-size: 15px;
+padding: 2px 12px;
+margin: 2px 5px;
+
+}
+.btn:hover
+{
+color: black;
+background-color: white;
+}
+
+.item
+{
+border:2px solid white; 
+margin: 200px 30px;
+width: 33%;
+height: 300px;
+border-radius: 12px;
+}
+
+.form input
+{
+padding: 1px 10px;
+display: block;
+margin: 5px auto;
+width: 75%;
+border-radius: 12px;
+text-align: center;
+font-size: 20px;
+
+}
+.form-btn
+{
+    width: 30%;
+    display: block;
+    margin: 10px auto;
+
+}
